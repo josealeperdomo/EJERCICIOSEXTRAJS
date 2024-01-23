@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <section>
+            <img src="https://seeklogo.com/images/A/as-roma-logo-61DF23CC37-seeklogo.com.png" alt="">
+        </section>
+        <section>
+            <img onclick="hamburguesa()" class="menuH" src="https://cdn1.iconfinder.com/data/icons/everyday-3/64/menu_lines_setup_options_hamburger-512.png" alt="">
+            <ul id="menuG" class="menuG">
+                <li><a href="#sec1">Inicio</a></li>
+                <li><a href="#sec2">Servicios</a></li>
+                <li><a href="#sec3">Contacto</a></li>
+                <li><a href="#sec4">Nosotros</a></li>
+                <li><a href="#perfil" onclick="perfil()">Perfil</a></li>
+            </ul>
+        </section>
+    </nav>
+    <main>
+        <div id="pantalla" class="pantalla">
+            <div id="perfil" class="perfil">
+                <button onclick="x()" id="cerrar" class="cerrar">X</button>
+                <h1>Iniciar sesión</h1>
+                <form action="">
+                    <input type="email" placeholder="Ingrese su correo" name="" id="">
+                    <input type="password" placeholder="Ingresa tu contrasena" name="" id="">
+                </form>
+            </div>
+        </div>
+        <section id="sec1" class="sec1">inicio</section>
+        <section id="sec2" class="sec2">Servicios</section>
+        <section id="sec3" class="sec3">Contacto</section>
+        <section id="sec4" class="sec4">Nosotros</section>
+    </main>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

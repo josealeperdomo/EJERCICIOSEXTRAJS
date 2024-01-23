@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.hover:hover{
+    cursor: pointer;
+}
+
+header{
+    height: 10%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 0px 20px 0px 20px;
+}
+
+.modoOscuro{
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.botonOscuro{
+    border: 1px solid white;
+    padding: 7px;
+    background-color: black;
+    color: white;
+}
+
+header button{
+    border: 1px solid black;
+    padding: 7px;
+    background-color: white;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 85%;
+    min-height: 510px;
+    border-bottom: 1px solid black;
+}
+
+#parteSup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#puntaje{
+    display: flex;
+    gap: 50px;
+}
+
+#vaciar{
+    border: none;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
+#tablero{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 20px;
+    
+}
+
+#tablero div{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 5%;
+    min-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

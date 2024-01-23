@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres en raya</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/6796/6796241.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header" class="">
+        <h1>JUEGO: TRES EN RAYA</h1>
+        <button id="modo" class="hover" onclick="modo()">Modo oscuro</button>
+    </header>
+    <main id="main">
+        <h1></h1>
+        <div id="parteSup">
+            <h1 id="turno">Turno de X</h1>
+            <div id="puntaje">
+            <h2 id="puntajex">Puntaje X = 0</h2>
+            <h2 id="puntajeo">Puntaje O = 0</h2>
+            </div>
+            <button id="vaciar" class="hover" onclick="borrarHistorial()">Vaciar puntaje</button>
+        </div>
+        <div id="tablero">
+            <div class="hover" id="c1"></div>
+            <div class="hover" id="c2"></div>
+            <div class="hover" id="c3"></div>
+            <div class="hover" id="c4"></div>
+            <div class="hover" id="c5"></div>
+            <div class="hover" id="c6"></div>
+            <div class="hover" id="c7"></div>
+            <div class="hover" id="c8"></div>
+            <div class="hover" id="c9"></div>
+        </div>
+    </main>
+    <footer id="footer">
+        Página hecha por Jose Perdomo ©
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
